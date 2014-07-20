@@ -158,7 +158,7 @@
 
 -(void)sealRemoved:(CCNode *)seal
 {
-    [self removeFromParent];
+    [seal removeFromParent];
 }
 
 @end
